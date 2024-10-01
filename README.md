@@ -8,7 +8,7 @@ Este repositório contém soluções para uma série de problemas de programaç�
    Implementa um loop `while` que calcula a soma dos primeiros 13 números inteiros (de 1 a 13). 
 
 2. **Verificação na Sequência de Fibonacci**  
-   O programa solicita um número ao usuário e verifica se ele pertence à sequência de Fibonacci, que começa com 0 e 1.  
+   O programa solicita um número ao usuário e verifica se ele pertence à sequência de Fibonacci.
    **Entrada:** Um número inteiro fornecido pelo usuário.  
    **Saída:** Mensagem informando se o número está na sequência.
 
