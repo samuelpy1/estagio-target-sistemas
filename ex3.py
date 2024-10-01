@@ -2,7 +2,7 @@ import json
 
 def calcular_faturamento(faturamento_mensal):
     #filtra os dias com faturamento e ignora dias com faturamento igual a 0
-    faturamento_valido = [dia['faturamento'] for dia in faturamento_mensal if dia['faturamento'] > 0]
+    faturamento_valido = [dia['valor'] for dia in faturamento_mensal if dia['valor'] > 0]
    
     menor_faturamento = min(faturamento_valido)
     maior_faturamento = max(faturamento_valido)
@@ -18,7 +18,7 @@ def carregar_dados_arquivo(caminho_arquivo):
         dados = json.load(arquivo)
     return dados
 
-caminho_arquivo = 'faturamento.json'
+caminho_arquivo = 'dados.json'
 faturamento_mensal = carregar_dados_arquivo(caminho_arquivo)
 menor_faturamento, maior_faturamento, dias_acima_da_media = calcular_faturamento(faturamento_mensal)
 
