@@ -12,17 +12,17 @@ Este repositório contém soluções para uma série de problemas de programaç�
    **Entrada:** Um número inteiro fornecido pelo usuário.  
    **Saída:** Mensagem informando se o número está na sequência.
 
-3. **Análise de Faturamento Diário**  
+4. **Análise de Faturamento Diário**  
    O programa processa um vetor com o faturamento diário de uma distribuidora e retorna:
    - O menor faturamento do mês.
    - O maior faturamento do mês.
    - O número de dias em que o faturamento foi superior à média mensal (ignorando dias sem faturamento).  
    **Fonte de Dados:** Utiliza JSON ou XML.
 
-4. **Cálculo de Percentuais de Faturamento por Estado**  
+5. **Cálculo de Percentuais de Faturamento por Estado**  
    Calcula a porcentagem que cada estado representa no faturamento mensal total da distribuidora.  
    **Dados Utilizados:** Valores fixos para cada estado (SP, RJ, MG, ES e Outros).
 
-5. **Inversão de String**  
+6. **Inversão de String**  
    Um programa que inverte os caracteres de uma string fornecida pelo usuário, sem o uso de funções prontas.  
    **Importante:** O código não deve utilizar métodos como `reverse`.
